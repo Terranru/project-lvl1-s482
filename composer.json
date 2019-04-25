@@ -1,0 +1,12 @@
+{
+    "name": "terr/hexlet",
+    "description": "brain games",
+    "type": "project",
+    "authors": [
+        {
+            "name": "DenLok",
+            "email": "denis@dlblog.ru"
+        }
+    ],
+    "require": {}
+}
