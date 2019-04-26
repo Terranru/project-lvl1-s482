@@ -1,12 +1,15 @@
 {
     "name": "terr/hexlet",
     "description": "brain games",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "DenLok",
             "email": "denis@dlblog.ru"
         }
     ],
+"bin": [
+        "./bin/brain-games"
+    ], 
     "require": {}
 }
