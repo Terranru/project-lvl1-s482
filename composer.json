@@ -7,9 +7,9 @@
             "name": "DenLok",
             "email": "denis@dlblog.ru"
         }
-    ],
-"bin": [
-        "bin/brain-games"
     ], 
-    "require": {}
+    "require": {},
+    "bin": [
+    "bin/brain-games"
+  ]
 }
