@@ -8,6 +8,7 @@
             "email": "denis@dlblog.ru"
         }
     ], 
+    "minimum-stability": "dev",
     "require": {},
     "bin": [
     "bin/brain-games"
