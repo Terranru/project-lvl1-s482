@@ -1,16 +1,17 @@
 {
-    "name": "terr/hexlet",
-    "description": "brain games",
+    "name": "terr/braingames-php",
+    "description": "project for learn php",
     "bin": [
     "bin/brain-games"
   ],
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "DenLok",
             "email": "denis@dlblog.ru"
         }
-    ], 
-    "minimum-stability": "dev"
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
-
