@@ -1,3 +1,5 @@
 #!/usr/bin/php
 <?php
-echo "Welcome to the Brain Games!";
+use function \cli\line;
+line('Welcome to the Brain Game!');
+//echo "Welcome to the Brain Games!";
