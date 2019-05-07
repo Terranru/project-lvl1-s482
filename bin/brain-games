@@ -12,4 +12,4 @@ require_once('src/Cli.php');
 
 use function BrainGames\Cli\run;
 
-run();
+run(); 
