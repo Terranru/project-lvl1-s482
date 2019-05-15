@@ -16,6 +16,12 @@
     "scripts": {
         "phpcs": "phpcs"
     },
+    "autoload": {
+        "files": [
+            "src/Cli.php",
+            "src/Evenlib.php"
+        ]
+    },
     "require": {
     "php": ">=5.6.0",
         "wp-cli/php-cli-tools": "^0.11.11"
