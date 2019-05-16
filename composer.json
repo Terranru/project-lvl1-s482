@@ -17,6 +17,12 @@
     "scripts": {
         "phpcs": "phpcs"
     },
+    "autoload": {
+        "psr-4": {
+          "BrainGames\\Cli\\": "src",
+          "BrainGames\\Evenlib": "src"
+        }
+      },
     "require": {
     "php": ">=5.6.0",
         "wp-cli/php-cli-tools": "^0.11.11"
