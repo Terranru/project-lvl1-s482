@@ -20,7 +20,7 @@
     "autoload": {
         "psr-4": {
           "BrainGames\\Cli\\": "src",
-          "BrainGames\\Evenlib": "src"
+          "BrainGames\\Evenlib\\": "src"
         }
       },
     "require": {
