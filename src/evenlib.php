@@ -26,10 +26,13 @@ function run()
         if (even($random) == $answer) {
             line('Correct!');
         } else {
-            line("'yes' is wrong answer ;(. Correct answer was 'no'.");
+            line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, even($random));
             line("Let's try again, %s!", $name);
-            $i = 4;
+            $i = 99;
         }
+    }
+    if ($i != 99) {
+        line("Congratulations, %s!", $name);
     }
 
     return;
