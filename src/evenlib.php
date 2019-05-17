@@ -31,7 +31,7 @@ function run()
             $i = 99;
         }
     }
-    if ($i != 99) {
+    if ($i != 100) {
         line("Congratulations, %s!", $name);
     }
 
