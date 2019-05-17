@@ -4,12 +4,11 @@ namespace BrainGames\Evenlib;
 use function \cli\line;
 use function \cli\prompt;
 
-function even($answer)
+function even($random)
 {
-    if ($answer % 2 === 0) {
+    if ($random % 2 === 0) {
         return 'yes';
-    }
-    else {
+    } else {
         return 'no';
     }
 }
@@ -20,12 +19,18 @@ function run()
     line('Answer "yes" if number even otherwise answer "no".');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    for ($i=0; $i < 3; $i++) { 
+    for ($i = 0; $i < 3; $i++) {
         $random = random_int(0, 15);
         line("Question: %s", $random);
         $answer = prompt('Your answer');
+        if (even($random) == $answer) {
+            line('Correct!');
+        } else {
+            line("'yes' is wrong answer ;(. Correct answer was 'no'.");
+            line("Let's try again, %s!", $name);
+            $i = 4;
+        }
     }
-
 
     return;
 }
